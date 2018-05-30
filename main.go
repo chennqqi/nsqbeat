@@ -3,6 +3,9 @@ package main
 import (
 	"os"
 
+	_ "output/nsq"
+	_ "processor/command"
+
 	"github.com/chennqqi/nsqbeat/cmd"
 )
 
